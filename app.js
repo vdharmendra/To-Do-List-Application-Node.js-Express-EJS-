@@ -37,7 +37,11 @@ app.post("/", function(req, res){
 app.get("/work", function(req, res){
     res.render("lists", {listTitle: "Work", newListItems: workList });
 });
+
+
 const PORT = process.env.PORT || 3000;
+
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+
