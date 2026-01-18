@@ -37,6 +37,7 @@ app.post("/", function(req, res){
 app.get("/work", function(req, res){
     res.render("lists", {listTitle: "Work", newListItems: workList });
 });
-app.listen(3000, function(){
-    console.log("Nodejs Application is Up and Running on port 3000!!");
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
 });
