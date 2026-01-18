@@ -12,7 +12,7 @@ Virendra D. Verma
 
 ## 🌐 Live
 
-Visit our live site: [upload on github and get working the link.](https://to-do-list-application-node-js-express.onrender.com/)
+Visit our live link: (https://to-do-list-application-node-js-express.onrender.com/)
 
 -
 
